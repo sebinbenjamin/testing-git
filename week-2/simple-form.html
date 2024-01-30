@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Simple Form </title>
+  <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+  <form action="/" method="post" autocomplete="on">
+    <label for="name">Name: </label>
+    <input type="text" name="name" id="name" placeholder="Your beautiful name here">
+    <br>
+    <label for="email">Email: </label>
+    <input type="email" name="email" id="email">
+    <br>
+    <label>Subject</label>
+    <br>
+    <input type="radio" name="subject" id="sales">
+    <label for="sales">Sales</label>
+    <br>
+    <input type="radio" name="subject" id="support">
+    <label for="support">Support</label>
+    <br>
+    <input type="radio" name="subject" id="others">
+    <label for="others">Others</label>
+    <br>
+    <label for="message">Message</label>
+    <br>
+    <textarea name="message" id="message"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>

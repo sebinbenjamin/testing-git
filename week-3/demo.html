@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body, html, h1 {
+      margin: 0;
+    }
+    .main {
+      position: relative;
+      background-color: green;
+      height: 1000px;
+      width: 2500px;
+      z-index:10;
+    }
+    .parent {
+      position: relative;
+      background-color: aqua;
+      height: 100px;
+      width: 250px;
+      z-index: -1;
+    }
+    p {
+      position: relative;
+      top: -61px;
+      left: 245px;
+    }
+  </style>
+</head>
+<body>
+  <div class="main">Green
+    <br>
+    <div class="parent">   
+      <h1>Relative</h1>
+      <p>x</p>
+    </div>
+  </div>
+</body>
+</html>

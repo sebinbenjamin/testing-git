@@ -1,0 +1,31 @@
+/* This is a comment */
+@keyframes example {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  75% {
+    background-color: green;
+  }
+  85% {
+    background-color: purple;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: pulse;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}

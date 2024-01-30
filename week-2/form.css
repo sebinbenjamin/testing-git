@@ -1,0 +1,30 @@
+input {
+  width: 40%;
+}
+
+input[type="text"], input[type="email"] {
+  padding: 2px 2px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 2px solid purple;
+}
+
+input[type="radio"] {
+  width: 20px;
+}
+
+input[type="radio"] + label {
+  color: purple;
+}
+
+input[type="submit"] {
+  background-color: purple;
+  color: white;
+}
+
+label {
+  font-family: Tahoma;
+}
+textarea {
+  border: 2px solid purple;
+}

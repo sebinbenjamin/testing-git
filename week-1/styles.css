@@ -1,0 +1,18 @@
+.intro {
+  color: orange;
+}
+
+/* Element selector is used to select the h1 */
+h1 {
+  color: blue;
+}
+
+/* Class selector is used to select the paragraph */
+.paraClass {
+  color: green;
+}
+
+/* ID selector is used to select the paragraph */
+#myPara {
+  color: red;
+}

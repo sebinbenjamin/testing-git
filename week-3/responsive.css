@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #553175;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  background-color: #333;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.right {
+  flex:70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Image placeholder */
+.imgph {
+  background-color: #aaa;
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+}
+
+/* Taller image placeholder */
+.imgph2 {
+  background-color: #aaa;
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+}
+
+/* Is the screen get small? */
+@media screen and (max-width: 768px) {
+  .navbar {
+    /* Make the nav links stack vertically instead of horizontally */
+    flex-direction: column;
+  }
+}
+
+/* Is the screen even smaller? */
+@media screen and (max-width: 600px) {
+  .navbar {
+    font-size: 12px;
+  }
+}
